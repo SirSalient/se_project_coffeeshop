@@ -16,19 +16,70 @@
 
 <body>
  <div class="page"> 
-
   <header class="header">
+    <nav class="nav">
+      <img src="images/logo.svg" alt="coffeeshop logo" class="nav__logo">
+      <ul class="nav__links">
+        <li><a href="#Recipes-list" class="nav__link">Recipes</a></li>
+        <li><a href="#Book-table" class="nav__link">Book a table</a></li>
+        <li><a href="#Menu-choice" class="nav__link">Menu</a></li>
+        <li><a href="#Contact-info" class="nav__link">Contacts</a></li>
+      </ul>
+    </nav>
+   <h1 class="header__title"><span class="header__span-accent">Specialty coffee</span> in the Triple Peaks Library</h1>
+    <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.</p>
+    <img src="./images/cafe.png" alt="cafe image" class="header__image">
+    <div class="header__footer" alt="Hours of operation and address">
+      <div>
+      <p class="header__time">Hours:</p>
+      <p class="header__time">Monday – Friday (10:00 – 19:00)</p>
+      <p class="header__time">Saturday – Sunday (11:00 – 18:00)</p>
+      </div>
+      <p class="header__location">200 Success Avenue, The Town of Triple Peaks</p>
+    </div>
   </header>
 
 <main class="content">
+ <section id="Recipes-list" class="recipes">
+    <h2 class="recipes__title">
+      Recipes
+    </h2>
+    <p class="recipes__sub-title">
+    Check out some recipes we've collected for your home-brewing convenience:
+  </p>
+
+  <div class="recipes__videos">
+    <div>
+      <iframe width="0" height="0" 
+      src="https://www.youtube.com/embed/h6EFGfo61tM?si=Q-jySCEmBqKblrRn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      allowfullscreen class="recipies__iframe">
+    </iframe>
+      <p class="recipes__video-caption">Honey Cinnamon Latte
+       <span>~6 min</span>
+      </p>
+      </div>
+  <div>
+    <iframe width="0" height="0"
+     src="https://www.youtube.com/embed/9SjCEOWd3PU?si=zQuDRxn53qteBAzq" 
+     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    allowfullscreen class="recipies__iframe">
+  </iframe>
+      <p class="recipes__video-caption">
+        Dalgona Coffee Recipe 
+        <span>~3 min</span> 
+      </p>
+  </div>
+  </div>
   
- <section class="recipes"></section>
 
- <section class="reservation"></section>
 
- <section class="menu"></section>
+ </section>
 
- <section class="about"></section>
+ <section id="Book-table" class="reservation"></section>
+
+ <section id="Menu-choice"  class="menu"></section>
+
+ <section id="Contact-info"  class="about"></section>
 
 </main>
 
