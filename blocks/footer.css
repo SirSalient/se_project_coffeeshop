@@ -2,11 +2,17 @@
  box-sizing: border-box;
  padding: 60px 80px 60px;
  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+ display: flex;
  color: #f2f2f2;
 }
 
-.footer__contents {
+.footer__content {
  display: flex;
+ /* justify-content: space-between; */
+} 
+
+.footer__contents{
+ display: contents;
  justify-content: space-between;
 }
 
